@@ -1,21 +1,30 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package lab3p2_cesarbrito;
 
-/**
- *
- * @author cesar
- */
+import java.util.ArrayList;
+import java.util.Scanner;
+
 public class Lab3P2_CesarBrito {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+
+        ArrayList<Tienda> tiendas = new ArrayList();
+        Scanner sc = new Scanner(System.in);
+        String usernameAdmin = "admin";
+        String passwordAdmin = "1234";
+        System.out.print("Ingrese su usuario: ");
+        String usernameInput = sc.next();
+        System.out.print("Ingrese su contraseña: ");
+        String passwordInput = sc.next();
+        while (!usernameInput.equals(usernameAdmin) && !passwordInput.equals(passwordAdmin)) {
+            System.out.println("***USUARIO INCORRECTO***");
+            System.out.print("Ingrese su usuario: ");
+            usernameInput = sc.next();
+            System.out.print("Ingrese su contraseña: ");
+            passwordInput = sc.next();
+        }
+        if (usernameInput.equals(usernameAdmin) && passwordInput.equals(passwordAdmin)) {
+            System.out.println("***USUARIO CORRECTO***");
+        }
     }
-    
+
 }
