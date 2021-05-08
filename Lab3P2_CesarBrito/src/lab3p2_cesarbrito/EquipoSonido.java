@@ -10,7 +10,7 @@ package lab3p2_cesarbrito;
  * @author cesar
  */
 public class EquipoSonido extends Articulo {
-    
+
     private int altavoces;
     private int potencia;
     private int puertosAuxiliares;
@@ -72,8 +72,8 @@ public class EquipoSonido extends Articulo {
 
     @Override
     public String toString() {
-        return "EquipoSonido{" + super.toString() + "altavoces=" + altavoces + ", potencia=" + potencia + ", puertosAuxiliares=" + puertosAuxiliares + ", discos=" + discos + ", puertosUSB=" + puertosUSB + "\n";
+        return "EquipoSonido{" + super.toString() + "altavoces=" + altavoces + ", potencia=" + potencia + ", puertosAuxiliares=" + puertosAuxiliares
+                + ", discos=" + discos + ", puertosUSB=" + puertosUSB + "\n";
     }
-    
-    
+
 }

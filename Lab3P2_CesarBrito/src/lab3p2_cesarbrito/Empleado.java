@@ -10,7 +10,7 @@ package lab3p2_cesarbrito;
  * @author cesar
  */
 public class Empleado {
-    
+
     private String nombre;
     private String apellido;
     private int salario;
@@ -80,10 +80,7 @@ public class Empleado {
 
     @Override
     public String toString() {
-        return "Empleado{" + "nombre=" + nombre + ", apellido=" + apellido + ", salario=" + salario + ", nacionalidad=" + nacionalidad + ", username=" + username + ", password=" + password + '}';
+        return "Empleado{" + "nombre=" + nombre + ", apellido=" + apellido + ", salario=" + salario + ", nacionalidad=" + nacionalidad + ", username=" + username + ", password=" + password ;
     }
 
-    
-    
-    
 }

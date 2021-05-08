@@ -9,7 +9,7 @@ package lab3p2_cesarbrito;
  *
  * @author cesar
  */
-public class Consola extends Articulo{
+public class Consola extends Articulo {
 
     private String marca;
     private int almacenamiento;
@@ -72,8 +72,8 @@ public class Consola extends Articulo{
 
     @Override
     public String toString() {
-        return "Consola{" + super.toString() + "marca=" + marca + ", almacenamiento=" + almacenamiento + " GB, controles=" + controles + ", accesorios=" + accesorios + ", informacionTarjeta=" + informacionTarjeta + "\n";
+        return "Consola{" + super.toString() + "marca=" + marca + ", almacenamiento=" + almacenamiento + " GB, controles=" + controles + ", accesorios=" + accesorios
+                + ", informacionTarjeta=" + informacionTarjeta + "\n";
     }
 
-    
 }

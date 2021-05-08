@@ -88,7 +88,7 @@ public class Tienda {
     }
 
     public void setArticulos(ArrayList<Articulo> articulos) {
-        if (articulos.size() < getCantidadArticulo()) {
+        if (articulos.size() < cantidadArticulo) {
             this.articulos = articulos;
         }
     }
@@ -98,7 +98,7 @@ public class Tienda {
     }
 
     public void setEmpleados(ArrayList<Empleado> empleados) {
-        if (empleados.size() < getEmpleadosMax()) {
+        if (empleados.size() < empleadosMax) {
             this.empleados = empleados;
         }
     }
@@ -114,8 +114,8 @@ public class Tienda {
     @Override
     public String toString() {
         return "Tienda{" + "Identificador=" + identificador + ", Ubicacion=" + ubicacion + ", EmpleadosMax=" + empleadosMax + ", CantidadCajas=" + cantidadCajas
-                + ", ProductoMasVendido=" + productoMasVendido + ", CantidadArticulo=" + cantidadArticulo + ", Articulos=" + articulos + ", Empleados=" + 
-                empleados + ", Clientes=" + clientes;
+                + ", ProductoMasVendido=" + productoMasVendido + ", CantidadArticulo=" + cantidadArticulo + "\nArticulos=" + articulos + "\nEmpleados=" + 
+                empleados + "\nClientes=" + clientes;
     }
 
 }

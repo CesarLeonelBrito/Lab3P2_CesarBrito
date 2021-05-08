@@ -25,6 +25,34 @@ public class Asesor extends Empleado {
         this.productos = productos;
         this.creditos = creditos;
     }
-    
-    
+
+    public ArrayList<Cliente> getClientesAtendido() {
+        return clientesAtendido;
+    }
+
+    public void setClientesAtendido(ArrayList<Cliente> clientesAtendido) {
+        this.clientesAtendido = clientesAtendido;
+    }
+
+    public int getProductos() {
+        return productos;
+    }
+
+    public void setProductos(int productos) {
+        this.productos = productos;
+    }
+
+    public int getCreditos() {
+        return creditos;
+    }
+
+    public void setCreditos(int creditos) {
+        this.creditos = creditos;
+    }
+
+    @Override
+    public String toString() {
+        return "Asesor{" + super.toString() + "clientesAtendido=" + clientesAtendido + ", productos=" + productos + ", creditos=" + creditos + "\n";
+    }
+
 }

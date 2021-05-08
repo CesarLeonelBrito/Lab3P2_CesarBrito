@@ -9,8 +9,8 @@ package lab3p2_cesarbrito;
  *
  * @author cesar
  */
-public class Televisor extends Articulo{
-    
+public class Televisor extends Articulo {
+
     private int pantalla;
     private boolean smart;
     private String marca;
@@ -74,8 +74,5 @@ public class Televisor extends Articulo{
     public String toString() {
         return "Televisor{" + super.toString() + "pantalla=" + pantalla + " pulgadas, smart=" + smart + ", marca=" + marca + ", conexiones=" + conexiones + ", grosor=" + grosor + "\n";
     }
-    
-    
-    
-    
+
 }

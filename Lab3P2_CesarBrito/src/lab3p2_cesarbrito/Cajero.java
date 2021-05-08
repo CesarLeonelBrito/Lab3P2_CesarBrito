@@ -72,7 +72,7 @@ public class Cajero extends Empleado {
 
     @Override
     public String toString() {
-        return "Cajero{" + super.toString() + "years=" + years + ", horario=" + horario + ", horaAlmuerzo=" + horaAlmuerzo + ", meta=" + meta + ", cantidadEmpleados=" + cantidadEmpleados + '}';
+        return "Cajero{" + super.toString() + "years=" + years + ", horario=" + horario + ", horaAlmuerzo=" + horaAlmuerzo + ", meta=" + meta + ", cantidadEmpleados=" + cantidadEmpleados + "\n";
     }
 
 }

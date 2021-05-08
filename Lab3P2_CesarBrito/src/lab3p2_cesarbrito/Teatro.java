@@ -54,6 +54,5 @@ public class Teatro extends Articulo {
     public String toString() {
         return "Teatro{" + super.toString() + "altavoces=" + altavoces + ", discosCantidad=" + discosCantidad + ", informacion=" + informacion + "\n";
     }
-    
-    
+
 }
